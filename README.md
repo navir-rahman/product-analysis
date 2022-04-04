@@ -1,5 +1,5 @@
 # Getting Started Torch light
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+see the live site here [https://sparkling-kleicha-4dc15f.netlify.app](https://sparkling-kleicha-4dc15f.netlify.app).
 
 This project was made with react js
 
