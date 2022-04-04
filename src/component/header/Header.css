@@ -1,0 +1,18 @@
+.menu{
+
+}
+.menu nav{
+    display: flex;
+    justify-content: center;
+}
+.navlink{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(255, 0, 0, 0);
+}
+.navlink:hover{
+    background-color: #8884d880;
+    border-bottom: 1px solid red;
+
+}
