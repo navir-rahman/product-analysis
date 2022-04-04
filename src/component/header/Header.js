@@ -29,7 +29,7 @@ const Header = () => {
                             color: isActive ? "red" : "",
                         };
                     }}
-                    to={'/review'}
+                    to={'/reviews'}
                 >
                     review
                 </NavLink>

@@ -15,6 +15,11 @@
 .homeimage img{
     max-width: 500px;
 }
+
+.homeRivew{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 @media only screen and (max-width: 800px) {
     .homecontainer{
         flex-direction: column-reverse;

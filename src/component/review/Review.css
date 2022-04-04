@@ -1,0 +1,24 @@
+.reviewcontainer{
+text-align: left;
+border: 2px solid antiquewhite;
+margin: 10px;
+border-radius: 5px;
+}
+.uname{
+    display: flex;
+    align-items: center;
+}
+.uname h3{
+    margin: 10px;
+    color: orange;
+    
+}
+.uname h5{
+    color: #86C46C;
+    margin: 10px;
+}
+.udisc{
+    margin: 10px;
+    color: #3a4a3a;
+
+}
