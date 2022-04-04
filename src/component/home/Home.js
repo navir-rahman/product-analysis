@@ -2,6 +2,7 @@ import './Home.css'
 import React from 'react';
 import useReview from '../hooks/useReview';
 import Review from '../review/Review'
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -14,8 +15,7 @@ const Home = () => {
                 <h3>2021 NEWEST DESIGN MD-090P: 4000mAh
                     replaceable li-ion battery can charge more than one smartphone.
                 </h3>
-
-                <button>See review</button>
+                <Link to={'/reviews'}> <button> see review </button> </Link>
             </div>
             <div className="homeimage">
                 <img src={'light.webp'} alt="" />
@@ -29,6 +29,7 @@ const Home = () => {
                 reviews.slice(0, 3).map( (review, index)=> <Review key={review.id} review={review} ></Review>)
             }
         </div>
+        <Link to={'/reviews'}> <button> see more </button> </Link>
     </div>
     );
 };
