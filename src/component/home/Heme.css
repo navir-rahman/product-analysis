@@ -1,0 +1,25 @@
+.homecontainer{
+    display: flex;
+    justify-content: center;
+}
+.hometext{
+    text-align: left;
+
+}
+.hometext h1{
+    color: #86C46C;
+}
+.hometext h3{
+    
+}
+.homeimage img{
+    max-width: 500px;
+}
+@media only screen and (max-width: 800px) {
+    .homecontainer{
+        flex-direction: column-reverse;
+    }
+    .hometext{
+        text-align: center;
+    }
+}
